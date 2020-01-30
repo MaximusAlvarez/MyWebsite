@@ -71,7 +71,27 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ul class=\"nav justify-content-center fixed-top\" data-aos=\"flip-up\" data-aos-duration=1000 data-aos-delay=1300>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\">Home</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\">About</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\">Projects</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\">Resume</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\">Contact</button>\n    </a>\n  </li>\n</ul>\n<div class=\"main\" background=\"../assets/img/background.png\">\n  <div class=\"overlay\"></div>\n  <div class=\"contain\">\n    <div class=\"inform\">\n        <div class=\"info\" data-aos=\"zoom-out-left\" data-aos-duration=1000 data-aos-delay=900>\n          <p class=\"name\">NIKHIL R</p>\n        </div>\n        <div class=\"info\" data-aos=\"zoom-in-left\" data-aos-duration=1000 data-aos-delay=1300>\n          <p class=\"desig\">Student</p>\n          <p class=\"desig\">Software Developer</p>\n        </div>\n    </div>\n    <div class=\"dp\"></div>\n  </div>\n  <a class=\"show-more show-more-visible semplice-event\" data-event-type=\"helper\" data-event=\"scrollToContent\">\n    <svg version=\"1.1\" id=\"Ebene_2_1_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"53px\" height=\"20px\" viewBox=\"0 0 53 20\" enable-background=\"new 0 0 53 20\" xml:space=\"preserve\">\n      <g>\n        <polygon points=\"26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 \t\"></polygon>\n      </g>\n    </svg>\n  </a>\n</div>";
+    __webpack_exports__["default"] = "<ul class=\"nav justify-content-center fixed-top\" data-aos=\"flip-up\" data-aos-duration=1000 data-aos-delay=1300>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#home\">\n      <button class=\"btn\" [style.color]=\"fontcolornav\">Home</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#about\">\n      <button class=\"btn\" [style.color]=\"fontcolornav\">About</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\" [style.color]=\"fontcolornav\">Projects</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\" [style.color]=\"fontcolornav\" >Resume</button>\n    </a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"#\">\n      <button class=\"btn\" [style.color]=\"fontcolornav\">Contact</button>\n    </a>\n  </li>\n</ul>\n<div class=\"main\" id=\"home\">\n  <div class=\"contain\">\n    <div class=\"name\"> <span class=\"typed-element1\"></span> </div>\n    <div class=\"descrip\"> <span class=\"typed-element2\"></span> </div>\n  </div> \n  <a class=\"show-more show-more-visible semplice-event\" data-event-type=\"helper\" data-event=\"scrollToContent\" href=\"#about\">\n    <svg version=\"1.1\" id=\"Ebene_2_1_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"53px\" height=\"20px\" viewBox=\"0 0 53 20\" enable-background=\"new 0 0 53 20\" xml:space=\"preserve\">\n      <g>\n        <polygon points=\"26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 \t\"></polygon>\n      </g>\n    </svg>\n  </a>\n</div>\n<div class=\"second\" id=\"about\"></div>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/temp/temp.component.html":
+  /*!********************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/temp/temp.component.html ***!
+    \********************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppTempTempComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<!-- <ul class=\"nav justify-content-center fixed-top\" data-aos=\"flip-up\" data-aos-duration=1000 data-aos-delay=1300>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"#\">\n        <button class=\"btn\">Home</button>\n      </a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"#\">\n        <button class=\"btn\">About</button>\n      </a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"#\">\n        <button class=\"btn\">Projects</button>\n      </a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"#\">\n        <button class=\"btn\">Resume</button>\n      </a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"#\">\n        <button class=\"btn\">Contact</button>\n      </a>\n    </li>\n  </ul>\n  <div class=\"main\" background=\"../assets/img/background.png\">\n    <div class=\"overlay\"></div>\n    <div class=\"contain\">\n      <div class=\"inform\">\n          <div class=\"info\" data-aos=\"zoom-out-left\" data-aos-duration=1000 data-aos-delay=900>\n            <p class=\"name\">NIKHIL R</p>\n          </div>\n          <div class=\"info\" data-aos=\"zoom-in-left\" data-aos-duration=1000 data-aos-delay=1300>\n            <p class=\"desig\">Student</p>\n            <p class=\"desig\">Software Developer</p>\n          </div>\n      </div>\n      <div class=\"dp\"></div>\n    </div>\n    <a class=\"show-more show-more-visible semplice-event\" data-event-type=\"helper\" data-event=\"scrollToContent\">\n      <svg version=\"1.1\" id=\"Ebene_2_1_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"53px\" height=\"20px\" viewBox=\"0 0 53 20\" enable-background=\"new 0 0 53 20\" xml:space=\"preserve\">\n        <g>\n          <polygon points=\"26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 \t\"></polygon>\n        </g>\n      </svg>\n    </a>\n  </div> -->";
     /***/
   },
 
@@ -779,7 +799,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Wallpoet&display=swap');\n.nav {\n    height: 70px;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.nav-item {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    height: 40px;\n    width: 200px;\n}\n.btn {\n    font-family: 'Press Start 2P', cursive;\n    font-size: 12px;\n    margin: 0;\n    position: absolute;\n    padding: 0;\n    height: 40px;\n    width: 150px;\n    border: 1px solid;\n    color: #3498db;\n    font-weight: 100;\n    text-transform: uppercase;\n    cursor: pointer;\n}\n.btn::before,.btn::after {\n    content: \"\";\n    position: absolute;\n    width: 14px;\n    height: 1px;\n    background: #334b48;\n    -webkit-transform: skewX(50deg);\n            transform: skewX(50deg);\n    -webkit-transition: .4s linear;\n    transition: .4s linear;\n}\n.btn::before {\n    top: -1px;\n    left: 10%;\n}\n.btn::after {\n    bottom: -1px;\n    right: 10%;\n}\n.btn:hover::before {\n    left: 80%;\n}\n.btn:hover::after {\n    right: 80%;\n}\n.main {\n    /* background-image: url(\"wallhaven-2ew3pm.jpg\"); */\n    background-color: #334b48;\n    background-size: cover;\n    height: 100vh;\n    width: 100vw;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.main * {\n    z-index: 3;\n}\n.overlay {\n    height: 100vh;\n    width: 100%;\n    opacity: 0.2;\n    background: blue;\n    z-index: 2;\n    position: absolute;\n}\n.contain {\n    width: 100%;\n    height: 40%;\n    /* background-color: red; */\n    position: relative;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n}\n.dp {\n    height: 400px;\n    width: 400px;\n    max-width: 35vh;\n    max-height: 35vh;\n    background-image: url(\"pp.jpg\");\n    background-size: cover;\n    position: absolute;\n    border-radius: 100%;\n    -webkit-animation: nudge 1.5s cubic-bezier(.9,0,.61,.97) 1 forwards normal;\n            animation: nudge 1.5s cubic-bezier(.9,0,.61,.97) 1 forwards normal;\n}\n@-webkit-keyframes nudge {    \n    to {\n        -webkit-transform: translate(14vw, 0);\n                transform: translate(14vw, 0);\n    }\n  }\n@keyframes nudge {    \n    to {\n        -webkit-transform: translate(14vw, 0);\n                transform: translate(14vw, 0);\n    }\n  }\n.info {\n    /* font-family: 'Press Start 2P', cursive; */\n    font-family: 'Wallpoet', cursive;\n    color: white;\n    position: relative;\n    right: 14vw;\n}\n.name {\n    font-size: 50px;\n}\n.desig {\n    font-size: 30px;\n}\n.show-more {\n    cursor: pointer;\n    position: absolute;\n    bottom: 2px;\n    width: 100%;\n    z-index: 105;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    padding: 30px;\n}\ng {\n    color: #334b48;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsMkZBQTJGO0FBQzNGO0lBQ0ksWUFBWTtJQUNaLHlCQUFtQjtZQUFuQixtQkFBbUI7QUFDdkI7QUFDQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHlCQUFtQjtZQUFuQixtQkFBbUI7SUFDbkIsWUFBWTtJQUNaLFlBQVk7QUFDaEI7QUFDQTtJQUNJLHNDQUFzQztJQUN0QyxlQUFlO0lBQ2YsU0FBUztJQUNULGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsWUFBWTtJQUNaLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsY0FBYztJQUNkLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsZUFBZTtBQUNuQjtBQUNBO0lBQ0ksV0FBVztJQUNYLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsV0FBVztJQUNYLG1CQUFtQjtJQUNuQiwrQkFBdUI7WUFBdkIsdUJBQXVCO0lBQ3ZCLDhCQUFzQjtJQUF0QixzQkFBc0I7QUFDMUI7QUFDQTtJQUNJLFNBQVM7SUFDVCxTQUFTO0FBQ2I7QUFDQTtJQUNJLFlBQVk7SUFDWixVQUFVO0FBQ2Q7QUFDQTtJQUNJLFNBQVM7QUFDYjtBQUNBO0lBQ0ksVUFBVTtBQUNkO0FBQ0E7SUFDSSxtREFBbUQ7SUFDbkQseUJBQXlCO0lBQ3pCLHNCQUFzQjtJQUN0QixhQUFhO0lBQ2IsWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHdCQUF1QjtZQUF2Qix1QkFBdUI7SUFDdkIseUJBQW1CO1lBQW5CLG1CQUFtQjtBQUN2QjtBQUNBO0lBQ0ksVUFBVTtBQUNkO0FBQ0E7SUFDSSxhQUFhO0lBQ2IsV0FBVztJQUNYLFlBQVk7SUFDWixnQkFBZ0I7SUFDaEIsVUFBVTtJQUNWLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksV0FBVztJQUNYLFdBQVc7SUFDWCwyQkFBMkI7SUFDM0Isa0JBQWtCO0lBQ2xCLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHlCQUFtQjtZQUFuQixtQkFBbUI7SUFDbkIsd0JBQXVCO1lBQXZCLHVCQUF1QjtBQUMzQjtBQUNBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7SUFDWixlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLCtCQUErQjtJQUMvQixzQkFBc0I7SUFDdEIsa0JBQWtCO0lBQ2xCLG1CQUFtQjtJQUNuQiwwRUFBa0U7WUFBbEUsa0VBQWtFO0FBQ3RFO0FBQ0E7SUFDSTtRQUNJLHFDQUE2QjtnQkFBN0IsNkJBQTZCO0lBQ2pDO0VBQ0Y7QUFKRjtJQUNJO1FBQ0kscUNBQTZCO2dCQUE3Qiw2QkFBNkI7SUFDakM7RUFDRjtBQUNGO0lBQ0ksNENBQTRDO0lBQzVDLGdDQUFnQztJQUNoQyxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLFdBQVc7QUFDZjtBQUNBO0lBQ0ksZUFBZTtBQUNuQjtBQUNBO0lBQ0ksZUFBZTtBQUNuQjtBQUVBO0lBQ0ksZUFBZTtJQUNmLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsV0FBVztJQUNYLFlBQVk7SUFDWixvQkFBYTtJQUFiLGFBQWE7SUFDYix3QkFBdUI7WUFBdkIsdUJBQXVCO0lBQ3ZCLGFBQWE7QUFDakI7QUFDQTtJQUNJLGNBQWM7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9UHJlc3MrU3RhcnQrMlB8V2FsbHBvZXQmZGlzcGxheT1zd2FwJyk7XG4ubmF2IHtcbiAgICBoZWlnaHQ6IDcwcHg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5uYXYtaXRlbSB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGhlaWdodDogNDBweDtcbiAgICB3aWR0aDogMjAwcHg7XG59XG4uYnRuIHtcbiAgICBmb250LWZhbWlseTogJ1ByZXNzIFN0YXJ0IDJQJywgY3Vyc2l2ZTtcbiAgICBmb250LXNpemU6IDEycHg7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGhlaWdodDogNDBweDtcbiAgICB3aWR0aDogMTUwcHg7XG4gICAgYm9yZGVyOiAxcHggc29saWQ7XG4gICAgY29sb3I6ICMzNDk4ZGI7XG4gICAgZm9udC13ZWlnaHQ6IDEwMDtcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cbi5idG46OmJlZm9yZSwuYnRuOjphZnRlciB7XG4gICAgY29udGVudDogXCJcIjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgd2lkdGg6IDE0cHg7XG4gICAgaGVpZ2h0OiAxcHg7XG4gICAgYmFja2dyb3VuZDogIzMzNGI0ODtcbiAgICB0cmFuc2Zvcm06IHNrZXdYKDUwZGVnKTtcbiAgICB0cmFuc2l0aW9uOiAuNHMgbGluZWFyO1xufVxuLmJ0bjo6YmVmb3JlIHtcbiAgICB0b3A6IC0xcHg7XG4gICAgbGVmdDogMTAlO1xufVxuLmJ0bjo6YWZ0ZXIge1xuICAgIGJvdHRvbTogLTFweDtcbiAgICByaWdodDogMTAlO1xufVxuLmJ0bjpob3Zlcjo6YmVmb3JlIHtcbiAgICBsZWZ0OiA4MCU7XG59XG4uYnRuOmhvdmVyOjphZnRlciB7XG4gICAgcmlnaHQ6IDgwJTtcbn1cbi5tYWluIHtcbiAgICAvKiBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJ3YWxsaGF2ZW4tMmV3M3BtLmpwZ1wiKTsgKi9cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzM0YjQ4O1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgaGVpZ2h0OiAxMDB2aDtcbiAgICB3aWR0aDogMTAwdnc7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLm1haW4gKiB7XG4gICAgei1pbmRleDogMztcbn1cbi5vdmVybGF5IHtcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIG9wYWNpdHk6IDAuMjtcbiAgICBiYWNrZ3JvdW5kOiBibHVlO1xuICAgIHotaW5kZXg6IDI7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xufVxuLmNvbnRhaW4ge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogNDAlO1xuICAgIC8qIGJhY2tncm91bmQtY29sb3I6IHJlZDsgKi9cbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuLmRwIHtcbiAgICBoZWlnaHQ6IDQwMHB4O1xuICAgIHdpZHRoOiA0MDBweDtcbiAgICBtYXgtd2lkdGg6IDM1dmg7XG4gICAgbWF4LWhlaWdodDogMzV2aDtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJwcC5qcGdcIik7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgICBhbmltYXRpb246IG51ZGdlIDEuNXMgY3ViaWMtYmV6aWVyKC45LDAsLjYxLC45NykgMSBmb3J3YXJkcyBub3JtYWw7XG59XG5Aa2V5ZnJhbWVzIG51ZGdlIHsgICAgXG4gICAgdG8ge1xuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgxNHZ3LCAwKTtcbiAgICB9XG4gIH1cbi5pbmZvIHtcbiAgICAvKiBmb250LWZhbWlseTogJ1ByZXNzIFN0YXJ0IDJQJywgY3Vyc2l2ZTsgKi9cbiAgICBmb250LWZhbWlseTogJ1dhbGxwb2V0JywgY3Vyc2l2ZTtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIHJpZ2h0OiAxNHZ3O1xufVxuLm5hbWUge1xuICAgIGZvbnQtc2l6ZTogNTBweDtcbn1cbi5kZXNpZyB7XG4gICAgZm9udC1zaXplOiAzMHB4O1xufVxuXG4uc2hvdy1tb3JlIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMnB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHotaW5kZXg6IDEwNTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIHBhZGRpbmc6IDMwcHg7XG59XG5nIHtcbiAgICBjb2xvcjogIzMzNGI0ODtcbn0iXX0= */";
+    __webpack_exports__["default"] = "@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Wallpoet&display=swap');\n.nav {\n    height: 70px;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.nav-item {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    height: 40px;\n    width: 200px;\n}\n.btn {\n    font-family: 'Hack', cursive;\n    font-size: 16px;\n    margin: 0;\n    position: absolute;\n    padding: 0;\n    height: 40px;\n    width: 150px;\n    font-weight: 100;\n    text-transform: uppercase;\n    cursor: pointer;\n}\n.main {\n    background-color: #01161e;\n    background-size: cover;\n    height: 100vh;\n    width: 100vw;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.contain {\n    font-family: 'Hack', cursive;\n    width: 100%;\n    height: 40%;\n    position: relative;\n    display: -webkit-box;\n    display: flex;\n    color: #88a0a8;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n}\n.name {\n    font-size: 50px;\n}\n.descrip {\n    font-size: 30px;\n}\n.show-more {\n    cursor: pointer;\n    position: absolute;\n    bottom: 2px;\n    width: 100%;\n    z-index: 105;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    padding: 30px;\n}\n@media(max-width: 1000px) {\n    .descrip{\n        font-size: 20px;\n    }\n}\n@media(max-width: 600px) {\n    .name {\n        font-size: 8vw;\n    }\n    .descrip{\n        font-size: 3vw;\n    }\n}\n.second {\n    background-color: #4f7cac;\n    background-size: cover;\n    height: 100vh;\n    width: 100vw;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n            align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsMkZBQTJGO0FBQzNGO0lBQ0ksWUFBWTtJQUNaLHlCQUFtQjtZQUFuQixtQkFBbUI7QUFDdkI7QUFDQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHlCQUFtQjtZQUFuQixtQkFBbUI7SUFDbkIsWUFBWTtJQUNaLFlBQVk7QUFDaEI7QUFDQTtJQUNJLDRCQUE0QjtJQUM1QixlQUFlO0lBQ2YsU0FBUztJQUNULGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsWUFBWTtJQUNaLFlBQVk7SUFDWixnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLGVBQWU7QUFDbkI7QUFDQTtJQUNJLHlCQUF5QjtJQUN6QixzQkFBc0I7SUFDdEIsYUFBYTtJQUNiLFlBQVk7SUFDWixvQkFBYTtJQUFiLGFBQWE7SUFDYix3QkFBdUI7WUFBdkIsdUJBQXVCO0lBQ3ZCLHlCQUFtQjtZQUFuQixtQkFBbUI7QUFDdkI7QUFDQTtJQUNJLDRCQUE0QjtJQUM1QixXQUFXO0lBQ1gsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixvQkFBYTtJQUFiLGFBQWE7SUFDYixjQUFjO0lBQ2QsNEJBQXNCO0lBQXRCLDZCQUFzQjtZQUF0QixzQkFBc0I7SUFDdEIseUJBQW1CO1lBQW5CLG1CQUFtQjtJQUNuQix3QkFBdUI7WUFBdkIsdUJBQXVCO0FBQzNCO0FBQ0E7SUFDSSxlQUFlO0FBQ25CO0FBQ0E7SUFDSSxlQUFlO0FBQ25CO0FBQ0E7SUFDSSxlQUFlO0lBQ2Ysa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxXQUFXO0lBQ1gsWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHdCQUF1QjtZQUF2Qix1QkFBdUI7SUFDdkIsYUFBYTtBQUNqQjtBQUNBO0lBQ0k7UUFDSSxlQUFlO0lBQ25CO0FBQ0o7QUFDQTtJQUNJO1FBQ0ksY0FBYztJQUNsQjtJQUNBO1FBQ0ksY0FBYztJQUNsQjtBQUNKO0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsc0JBQXNCO0lBQ3RCLGFBQWE7SUFDYixZQUFZO0lBQ1osb0JBQWE7SUFBYixhQUFhO0lBQ2Isd0JBQXVCO1lBQXZCLHVCQUF1QjtJQUN2Qix5QkFBbUI7WUFBbkIsbUJBQW1CO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVByZXNzK1N0YXJ0KzJQfFdhbGxwb2V0JmRpc3BsYXk9c3dhcCcpO1xuLm5hdiB7XG4gICAgaGVpZ2h0OiA3MHB4O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4ubmF2LWl0ZW0ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBoZWlnaHQ6IDQwcHg7XG4gICAgd2lkdGg6IDIwMHB4O1xufVxuLmJ0biB7XG4gICAgZm9udC1mYW1pbHk6ICdIYWNrJywgY3Vyc2l2ZTtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGhlaWdodDogNDBweDtcbiAgICB3aWR0aDogMTUwcHg7XG4gICAgZm9udC13ZWlnaHQ6IDEwMDtcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cbi5tYWluIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDExNjFlO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgaGVpZ2h0OiAxMDB2aDtcbiAgICB3aWR0aDogMTAwdnc7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLmNvbnRhaW4ge1xuICAgIGZvbnQtZmFtaWx5OiAnSGFjaycsIGN1cnNpdmU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiA0MCU7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgY29sb3I6ICM4OGEwYTg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuLm5hbWUge1xuICAgIGZvbnQtc2l6ZTogNTBweDtcbn1cbi5kZXNjcmlwIHtcbiAgICBmb250LXNpemU6IDMwcHg7XG59XG4uc2hvdy1tb3JlIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMnB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHotaW5kZXg6IDEwNTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIHBhZGRpbmc6IDMwcHg7XG59XG5AbWVkaWEobWF4LXdpZHRoOiAxMDAwcHgpIHtcbiAgICAuZGVzY3JpcHtcbiAgICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgIH1cbn1cbkBtZWRpYShtYXgtd2lkdGg6IDYwMHB4KSB7XG4gICAgLm5hbWUge1xuICAgICAgICBmb250LXNpemU6IDh2dztcbiAgICB9XG4gICAgLmRlc2NyaXB7XG4gICAgICAgIGZvbnQtc2l6ZTogM3Z3O1xuICAgIH1cbn1cblxuLnNlY29uZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzRmN2NhYztcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgd2lkdGg6IDEwMHZ3O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn0iXX0= */";
     /***/
   },
 
@@ -826,6 +846,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var aos__WEBPACK_IMPORTED_MODULE_2___default =
     /*#__PURE__*/
     __webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);
+    /* harmony import */
+
+
+    var typed_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! typed.js */
+    "./node_modules/typed.js/lib/typed.js");
+    /* harmony import */
+
+
+    var typed_js__WEBPACK_IMPORTED_MODULE_3___default =
+    /*#__PURE__*/
+    __webpack_require__.n(typed_js__WEBPACK_IMPORTED_MODULE_3__); // import {  } from '@angular/platform-browser';
+
 
     var AppComponent =
     /*#__PURE__*/
@@ -834,18 +867,65 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, AppComponent);
 
         this.title = 'my-website';
+        this.fontcolornav = '#546a76';
       }
 
       _createClass(AppComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
           aos__WEBPACK_IMPORTED_MODULE_2__["init"]();
+          this.innerHeight = window.innerHeight;
+          var name = {
+            strings: ["NIKHIL R"],
+            typeSpeed: 50,
+            backSpeed: 100,
+            showCursor: true,
+            cursorChar: '|',
+            startDelay: 0,
+            onComplete: function onComplete(self) {
+              self.cursor.remove();
+            }
+          };
+          var descrip = {
+            strings: ["Yup, I'm just another Software Developer."],
+            typeSpeed: 50,
+            backSpeed: 100,
+            showCursor: true,
+            cursorChar: '',
+            startDelay: 1100,
+            onStart: function onStart(self) {
+              self.cursorChar = '|';
+            },
+            onComplete: function onComplete(self) {
+              self.cursor.remove();
+            }
+          };
+          var typed = new typed_js__WEBPACK_IMPORTED_MODULE_3___default.a('.typed-element1', name);
+          var typed2 = new typed_js__WEBPACK_IMPORTED_MODULE_3___default.a('.typed-element2', descrip);
+        }
+      }, {
+        key: "onResize",
+        value: function onResize(event) {
+          this.innerHeight = window.innerHeight;
+        }
+      }, {
+        key: "onWindowScroll",
+        value: function onWindowScroll() {
+          var number = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+          if (number >= this.innerHeight) {
+            this.fontcolornav = '#01161e';
+          } else if (number > 2 * this.innerHeight) {} else {
+            this.fontcolornav = '#546a76';
+          }
         }
       }]);
 
       return AppComponent;
     }();
 
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])('window:resize', ['$event'])], AppComponent.prototype, "onResize", null);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])("window:scroll", [])], AppComponent.prototype, "onWindowScroll", null);
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-root',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
@@ -913,17 +993,102 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _about_about_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./about/about.component */
     "./src/app/about/about.component.ts");
+    /* harmony import */
+
+
+    var _temp_temp_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./temp/temp.component */
+    "./src/app/temp/temp.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"], _temp_temp_component__WEBPACK_IMPORTED_MODULE_6__["TempComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/temp/temp.component.css":
+  /*!*****************************************!*\
+    !*** ./src/app/temp/temp.component.css ***!
+    \*****************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppTempTempComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Wallpoet&display=swap');\n.nav {\n    height: 70px;\n    align-items: center;\n}\n.nav-item {\n    display: flex;\n    align-items: center;\n    height: 40px;\n    width: 200px;\n}\n.btn {\n    font-family: 'Press Start 2P', cursive;\n    font-size: 12px;\n    margin: 0;\n    position: absolute;\n    padding: 0;\n    height: 40px;\n    width: 150px;\n    border: 1px solid;\n    color: #3498db;\n    font-weight: 100;\n    text-transform: uppercase;\n    cursor: pointer;\n}\n.btn::before,.btn::after {\n    content: \"\";\n    position: absolute;\n    width: 14px;\n    height: 1px;\n    background: #334b48;\n    transform: skewX(50deg);\n    transition: .4s linear;\n}\n.btn::before {\n    top: -1px;\n    left: 10%;\n}\n.btn::after {\n    bottom: -1px;\n    right: 10%;\n}\n.btn:hover::before {\n    left: 80%;\n}\n.btn:hover::after {\n    right: 80%;\n}\n.main {\n    background-color: #334b48;\n    background-size: cover;\n    height: 100vh;\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.main * {\n    z-index: 3;\n}\n.overlay {\n    height: 100vh;\n    width: 100%;\n    opacity: 0.2;\n    background: blue;\n    z-index: 2;\n    position: absolute;\n}\n.contain {\n    width: 100%;\n    height: 40%;\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n.dp {\n    height: 400px;\n    width: 400px;\n    max-width: 35vh;\n    max-height: 35vh;\n    background-image: url(\"pp.jpg\");\n    background-size: cover;\n    position: absolute;\n    border-radius: 100%;\n    animation: nudge 1.5s cubic-bezier(.9,0,.61,.97) 1 forwards normal;\n}\n@keyframes nudge {    \n    to {\n        transform: translate(14vw, 0);\n    }\n  }\n.info {\n    font-family: 'Wallpoet', cursive;\n    color: white;\n    position: relative;\n    right: 14vw;\n}\n.name {\n    font-size: 50px;\n}\n.desig {\n    font-size: 30px;\n}\n\n.show-more {\n    cursor: pointer;\n    position: absolute;\n    bottom: 2px;\n    width: 100%;\n    z-index: 105;\n    display: flex;\n    justify-content: center;\n    padding: 30px;\n}\ng {\n    color: #334b48;\n} */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGVtcC90ZW1wLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztHQXFIRyIsImZpbGUiOiJzcmMvYXBwL3RlbXAvdGVtcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1QcmVzcytTdGFydCsyUHxXYWxscG9ldCZkaXNwbGF5PXN3YXAnKTtcbi5uYXYge1xuICAgIGhlaWdodDogNzBweDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLm5hdi1pdGVtIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIHdpZHRoOiAyMDBweDtcbn1cbi5idG4ge1xuICAgIGZvbnQtZmFtaWx5OiAnUHJlc3MgU3RhcnQgMlAnLCBjdXJzaXZlO1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbiAgICBtYXJnaW46IDA7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIHdpZHRoOiAxNTBweDtcbiAgICBib3JkZXI6IDFweCBzb2xpZDtcbiAgICBjb2xvcjogIzM0OThkYjtcbiAgICBmb250LXdlaWdodDogMTAwO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufVxuLmJ0bjo6YmVmb3JlLC5idG46OmFmdGVyIHtcbiAgICBjb250ZW50OiBcIlwiO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB3aWR0aDogMTRweDtcbiAgICBoZWlnaHQ6IDFweDtcbiAgICBiYWNrZ3JvdW5kOiAjMzM0YjQ4O1xuICAgIHRyYW5zZm9ybTogc2tld1goNTBkZWcpO1xuICAgIHRyYW5zaXRpb246IC40cyBsaW5lYXI7XG59XG4uYnRuOjpiZWZvcmUge1xuICAgIHRvcDogLTFweDtcbiAgICBsZWZ0OiAxMCU7XG59XG4uYnRuOjphZnRlciB7XG4gICAgYm90dG9tOiAtMXB4O1xuICAgIHJpZ2h0OiAxMCU7XG59XG4uYnRuOmhvdmVyOjpiZWZvcmUge1xuICAgIGxlZnQ6IDgwJTtcbn1cbi5idG46aG92ZXI6OmFmdGVyIHtcbiAgICByaWdodDogODAlO1xufVxuLm1haW4ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMzMzRiNDg7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIHdpZHRoOiAxMDB2dztcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4ubWFpbiAqIHtcbiAgICB6LWluZGV4OiAzO1xufVxuLm92ZXJsYXkge1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgb3BhY2l0eTogMC4yO1xuICAgIGJhY2tncm91bmQ6IGJsdWU7XG4gICAgei1pbmRleDogMjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG59XG4uY29udGFpbiB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiA0MCU7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cbi5kcCB7XG4gICAgaGVpZ2h0OiA0MDBweDtcbiAgICB3aWR0aDogNDAwcHg7XG4gICAgbWF4LXdpZHRoOiAzNXZoO1xuICAgIG1heC1oZWlnaHQ6IDM1dmg7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwicHAuanBnXCIpO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvcmRlci1yYWRpdXM6IDEwMCU7XG4gICAgYW5pbWF0aW9uOiBudWRnZSAxLjVzIGN1YmljLWJlemllciguOSwwLC42MSwuOTcpIDEgZm9yd2FyZHMgbm9ybWFsO1xufVxuQGtleWZyYW1lcyBudWRnZSB7ICAgIFxuICAgIHRvIHtcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMTR2dywgMCk7XG4gICAgfVxuICB9XG4uaW5mbyB7XG4gICAgZm9udC1mYW1pbHk6ICdXYWxscG9ldCcsIGN1cnNpdmU7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICByaWdodDogMTR2dztcbn1cbi5uYW1lIHtcbiAgICBmb250LXNpemU6IDUwcHg7XG59XG4uZGVzaWcge1xuICAgIGZvbnQtc2l6ZTogMzBweDtcbn1cblxuLnNob3ctbW9yZSB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBib3R0b206IDJweDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICB6LWluZGV4OiAxMDU7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBwYWRkaW5nOiAzMHB4O1xufVxuZyB7XG4gICAgY29sb3I6ICMzMzRiNDg7XG59ICovIl19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/temp/temp.component.ts":
+  /*!****************************************!*\
+    !*** ./src/app/temp/temp.component.ts ***!
+    \****************************************/
+
+  /*! exports provided: TempComponent */
+
+  /***/
+  function srcAppTempTempComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TempComponent", function () {
+      return TempComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var TempComponent =
+    /*#__PURE__*/
+    function () {
+      function TempComponent() {
+        _classCallCheck(this, TempComponent);
+      }
+
+      _createClass(TempComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return TempComponent;
+    }();
+
+    TempComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-temp',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./temp.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/temp/temp.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./temp.component.css */
+      "./src/app/temp/temp.component.css")).default]
+    })], TempComponent);
     /***/
   },
 
