@@ -891,11 +891,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             typeSpeed: 50,
             backSpeed: 100,
             showCursor: true,
-            cursorChar: '',
+            cursorChar: '|',
             startDelay: 1100,
-            onStart: function onStart(self) {
-              self.cursorChar = '|';
-            },
             onComplete: function onComplete(self) {
               self.cursor.remove();
             }

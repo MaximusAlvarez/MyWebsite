@@ -421,9 +421,8 @@ let AppComponent = class AppComponent {
             typeSpeed: 50,
             backSpeed: 100,
             showCursor: true,
-            cursorChar: '',
+            cursorChar: '|',
             startDelay: 1100,
-            onStart: (self) => { self.cursorChar = '|'; },
             onComplete: (self) => { self.cursor.remove(); }
         };
         const typed = new typed_js__WEBPACK_IMPORTED_MODULE_3___default.a('.typed-element1', name);
