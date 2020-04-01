@@ -146,8 +146,6 @@ mat-card {
   margin: 20px;
   background-color: rgba(13,37,47,.5);
   transition: transform 0.3s ease-in-out;
-  width: 320px !important;
-  height: 320px;
   color: white;
 }
 mat-card:hover {
@@ -155,6 +153,7 @@ mat-card:hover {
   transition: transform 0.3s ease-in-out;
   background-color: rgba(13,37,47,.8);
 }
+
 #about {
   min-height: 100vh;
   min-width: 100wh;
@@ -174,3 +173,24 @@ mat-card:hover {
   z-index: 1;
 }
 
+
+@media screen and (min-width: 600px) {
+  mat-card {
+    width: 320px !important;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .name {
+    font-size: 40px;
+  }
+  .hey {
+    font-size: 30px;
+  }
+  .descrip {
+    font-size: 30px;
+  }
+  #done {
+    font-size: 23px;
+  }
+}

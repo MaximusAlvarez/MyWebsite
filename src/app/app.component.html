@@ -1,4 +1,4 @@
-<div>
+
   <div class="mypage" id="start">
     <app-navbar></app-navbar>
     <div class="main">
@@ -10,13 +10,15 @@
   </div>
   <div id="portfolio">
     <p id="done">--- Here's what I've done ---</p>
-    <div class="columns is-multiline is-centered">
-      <mat-card class="column is-two-fifths"></mat-card>
-      <mat-card class="column is-two-fifths"></mat-card>
-      <mat-card class="column is-two-fifths"></mat-card>
-      <mat-card class="column is-two-fifths"></mat-card>
-      <mat-card class="column is-two-fifths"></mat-card>
-      <mat-card class="column is-two-fifths"></mat-card>
+    <div class="columns is-multiline is-mobile is-centered">
+      <mat-card class="column" [ngClass]="{'is-two-fifths': innerWidth >= 800, 'is-full': innerWidth <= 800}">
+        
+      </mat-card>
+      <mat-card class="column" [ngClass]="{'is-two-fifths': innerWidth >= 800, 'is-full': innerWidth <= 800}"></mat-card>
+      <mat-card class="column" [ngClass]="{'is-two-fifths': innerWidth >= 800, 'is-full': innerWidth <= 800}"></mat-card>
+      <mat-card class="column" [ngClass]="{'is-two-fifths': innerWidth >= 800, 'is-full': innerWidth <= 800}"></mat-card>
+      <mat-card class="column" [ngClass]="{'is-two-fifths': innerWidth >= 800, 'is-full': innerWidth <= 800}"></mat-card>
+      <mat-card class="column" [ngClass]="{'is-two-fifths': innerWidth >= 800, 'is-full': innerWidth <= 800}"></mat-card>
     </div>
   </div>
   <section id="about">
@@ -24,4 +26,3 @@
       <div class="wave"></div>
     </div>
   </section>
-</div>
