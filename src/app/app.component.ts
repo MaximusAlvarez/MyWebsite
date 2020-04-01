@@ -8,7 +8,6 @@ import { Component, HostListener, AfterViewInit } from '@angular/core';
 export class AppComponent implements AfterViewInit{
   title = 'my-website';
   innerWidth: number;
-  above800: boolean = false;
 
   mouseenter($event){
     if($event.path[0].innerText === "--- Nikhil Rajesh ---")
@@ -25,17 +24,14 @@ export class AppComponent implements AfterViewInit{
 
   @HostListener("window:resize", ['$event'])
   private onResize(event) {
+    this.detectScreenSize();
   }
   ngAfterViewInit() {
     this.detectScreenSize();
   }
 
   private detectScreenSize() {
-    if(this.innerWidth < 800)
-      this.above800 = false
-    else 
-      this.above800 = true
-    console.log(this.above800)
+    this.innerWidth = window.innerWidth;
   }
 
   ngOnInit() {

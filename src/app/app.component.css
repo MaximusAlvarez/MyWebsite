@@ -142,17 +142,6 @@
   width: 75%;
   z-index: 2;
 }
-mat-card {
-  margin: 20px;
-  background-color: rgba(13,37,47,.5);
-  transition: transform 0.3s ease-in-out;
-  color: white;
-}
-mat-card:hover {
-  transform: scale(1.2);
-  transition: transform 0.3s ease-in-out;
-  background-color: rgba(13,37,47,.8);
-}
 
 #about {
   min-height: 100vh;
@@ -172,8 +161,52 @@ mat-card:hover {
   top: -300px;
   z-index: 1;
 }
-
-
+mat-card {
+  margin: 20px;
+  padding: 0;
+  background-color: rgba(13,37,47,.5);
+  transition: transform 0.3s ease-in-out;
+  color: #aaa;
+}
+mat-card:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  background-color: rgba(13,37,47,.8);
+  color: #fff;
+}
+mat-card-title {
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+mat-card-title img {
+  height: 100%;
+  width: 100%;
+}
+mat-card-content {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Lato';
+  text-align: center;
+  min-height: 150px;
+}
+mat-card-content h1 {
+  font-size: 20px;
+}
+mat-card-content h3 {
+  font-size: 16px;
+}
+mat-card-content h4 {
+  font-size: 13px;
+}
+mat-card-content a{
+  padding: 5px;
+  /* color: #555; */
+}
 @media screen and (min-width: 600px) {
   mat-card {
     width: 320px !important;
