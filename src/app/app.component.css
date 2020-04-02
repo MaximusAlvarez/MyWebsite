@@ -166,13 +166,13 @@ mat-card {
   padding: 0;
   background-color: rgba(13,37,47,.5);
   transition: transform 0.3s ease-in-out;
-  color: #aaa;
+  color: #426c6e;
 }
 mat-card:hover {
   transform: scale(1.2);
   transition: transform 0.3s ease-in-out;
   background-color: rgba(13,37,47,.8);
-  color: #fff;
+  color: #778da9;
 }
 mat-card-title {
   height: 150px;
