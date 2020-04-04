@@ -14,12 +14,10 @@
     align-items: center;
     flex-direction: column;
     padding-top: 30vh;
-    /* justify-content: center; */
     height: 100%;
 }
 .main p {
     font-family: 'Darker Grotesque';
-    /* text-shadow: 0px 2px 3px #555; */
 }
 .hey {
     font-style: italic;
@@ -124,12 +122,21 @@
 #portfolio {
     background-color: #305D60;
     display: flex;
+    position: relative;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
     min-height: 100vh;
     min-width: 100wh;
+}
+#portfolio .wave {
+  width: 100%;
+}
+
+#portfolio .wave svg{
+  position: absolute;
+  bottom: 0;
 }
 #done {
   color: black;
@@ -142,49 +149,30 @@
   width: 75%;
   z-index: 2;
 }
-
-#about {
-  min-height: 100vh;
-  min-width: 100wh;
-  position: relative;
-  background-color: #0D252F;
-}
-
-#about::before {
-  content: '';
-  background: url('../assets/wave.png');
-  width: 100%;
-  position: absolute;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: -300px;
-  z-index: 1;
-}
-mat-card {
+#portfolio mat-card {
   margin: 20px;
   padding: 0;
   background-color: rgba(13,37,47,.5);
   transition: transform 0.3s ease-in-out;
   color: #426c6e;
 }
-mat-card:hover {
+#portfolio mat-card:hover {
   transform: scale(1.2);
   transition: transform 0.3s ease-in-out;
   background-color: rgba(13,37,47,.8);
   color: #778da9;
 }
-mat-card-title {
+#portfolio mat-card-title {
   height: 150px;
   overflow: hidden;
   border-radius: 5px 5px 0 0;
   width: 100%;
 }
-mat-card-title img {
+#portfolio mat-card-title img {
   height: 100%;
   width: 100%;
 }
-mat-card-content {
+#portfolio mat-card-content {
   display: flex;
   padding: 10px;
   align-items: center;
@@ -194,21 +182,120 @@ mat-card-content {
   text-align: center;
   min-height: 150px;
 }
-mat-card-content h1 {
+#portfolio mat-card-content h1 {
   font-size: 20px;
 }
-mat-card-content h3 {
+#portfolio mat-card-content h3 {
   font-size: 16px;
 }
-mat-card-content h4 {
+#portfolio mat-card-content h4 {
   font-size: 13px;
 }
-mat-card-content a{
+#portfolio mat-card-content a{
   padding: 5px;
-  /* color: #555; */
 }
+#about {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
+  background-color: #0D252F;
+}
+@keyframes animateWave {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(190px, 0, 0);
+  }
+}
+#about .wave {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  top: 10vh;
+}
+#about .wrapper1 {
+  left: -300px;
+}
+#about .wrapper2 {
+  left: -200px;
+}
+#about .wrapper1 svg{
+  display: block;
+  animation: animateWave 1.5s linear infinite;
+}
+#about .wrapper2 svg{
+  display: block;
+  animation: animateWave 2s linear infinite;
+}
+#resume {
+  min-height: 100vh;
+  min-width: 100wh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D252F;
+}
+#resume .deer {
+  display: flex;
+}
+.resume-short-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+#resume mat-card {
+  background-color: #010a0e;
+  opacity: 0.3;
+  border-radius: 20px;
+  margin: 10px;
+  color: white;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+.resume-short-links mat-card:hover {
+  transform: scale(1.2);
+  opacity: 0.8 !important;
+  cursor: pointer;
+}
+#resume .deer svg {
+  width: 440px;
+}
+.resume-sub {
+  height: 80vh;
+  width: 80vw;
+}
+.resume-sub mat-card-title {
+  font-size: 40px;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+.resume-sub mat-card-title i {
+  float: right;
+  cursor: pointer;
+}
+.technologies mat-card-content {
+  display: flex;
+}
+.technologies p {
+  font-size: 20px;
+  font-style: normal;
+  padding-bottom: 15px;
+}
+.technologies li {
+  font-size: 17px;
+}
+.experience {
+  padding-left: 100px;
+}
+
+
 @media screen and (min-width: 600px) {
-  mat-card {
+  #portfolio mat-card {
     width: 320px !important;
     height: 320px;
   }
@@ -225,5 +312,13 @@ mat-card-content a{
   }
   #done {
     font-size: 23px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #resume .deer svg {
+    display: none;
+  }
+  .resume-short-links {
+    padding-left: 0;
   }
 }

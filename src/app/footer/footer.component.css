@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap");
 #footer {
   min-height: 40vh;
-  background-color: #1a1a1a;
+  background-color: #010a0e;
   width: 100wh;
   display: flex;
   justify-content: center;
@@ -14,9 +14,10 @@
 }
 q {
   quotes: "“" "”" "‘" "’";
-  font-family: "Comic Neue", sans-serif;
-  font-size: 50px;
-  color: white;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  color: #2c4651;
 }
 q::before {
   content: open-quote;
@@ -35,7 +36,7 @@ q::after {
 }
 #links li a{
     padding: 0 20px;
-    color: white;
+    color: #2c4651;
     font-family: Lato, sans-serif;
     font-size: 18px;
 }
@@ -46,7 +47,7 @@ q::after {
     display: flex;
 }
 #contact li a i{
-    color: white;
+    color: #2c4651;
     padding: 20px 10px;
 }
 #contact li a i:hover{
