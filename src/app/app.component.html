@@ -1,1 +1,56 @@
-<app-loading></app-loading>
+<mat-drawer-container class="drawerContainer" [hasBackdrop]="'true'">
+    <mat-drawer #drawer [mode]="'over'">I'm a drawer</mat-drawer>
+    <div class="navbar">
+        <div class="navbar-start">
+            <h1>nikhilr</h1>
+        </div>
+        <div class="navbar-end" *ngIf="!smallScreen">
+            <div class="middle" [routerLink]="['/home']">Home</div>
+            <div class="middle">Blog</div>
+            <div class="middle">Projects</div>
+        </div>
+        <button mat-icon-button class="icon sidebarButton" *ngIf="smallScreen" (click)="drawer.toggle()">
+            <fa-icon [icon]="faBars" size="2x"></fa-icon>
+        </button>
+    </div>
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div>
+    <div class="footerContainer">
+        <mat-grid-list cols="6" rowHeight="100px">
+            <mat-grid-tile *ngIf="!smallScreen" class="primary" [colspan]="1">
+                <p>
+                    © 2020, Nikhil Rajesh
+                </p>
+            </mat-grid-tile>
+            <mat-grid-tile [colspan]="cols">
+                <a href="" class="icon">
+                    <fa-icon [icon]="faPhone" (mouseover)="spin = 1" (mouseout)="spin = 0" size="2x"
+                        [spin]="spin === 1">
+                    </fa-icon>
+                </a>
+                <a href="" class="icon">
+                    <fa-icon [icon]="faEnvelope" (mouseover)="spin = 2" (mouseout)="spin = 0" size="2x"
+                        [spin]="spin === 2">
+                    </fa-icon>
+                </a>
+                <a href="" class="icon">
+                    <fa-icon [icon]="faLinkedIn" (mouseover)="spin = 3" (mouseout)="spin = 0" size="2x"
+                        [spin]="spin === 3">
+                    </fa-icon>
+                </a>
+                <a href="" class="icon">
+                    <fa-icon [icon]="faGithub" (mouseover)="spin = 4" (mouseout)="spin = 0" size="2x"
+                        [spin]="spin === 4">
+                    </fa-icon>
+                </a>
+                <a href="" class="icon">
+                    <fa-icon [icon]="faInstagram" (mouseover)="spin = 5" (mouseout)="spin = 0" size="2x"
+                        [spin]="spin === 5">
+                    </fa-icon>
+                </a>
+            </mat-grid-tile>
+            <mat-grid-tile *ngIf="!smallScreen" [colspan]="1"></mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</mat-drawer-container>

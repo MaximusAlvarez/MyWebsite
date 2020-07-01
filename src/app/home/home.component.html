@@ -1,0 +1,26 @@
+<div class="container">
+    <ngx-typed-js *ngIf="!smallScreen" [strings]="['
+        <h1>HELLO!!!</h1>
+        <p>I am <i>Nikhil Rajesh</i>.</p>
+        <p>An aspiring <i>Software Developer</i>.</p>
+        <p>Currently pursuing <i>undergrad in CSE</i> at NITC.</p>
+        <p>As a hobby, I like to play <i>CTF\'s</i> in my spare time.</p>
+        <p>P.S. If u want to know more, checkout my resume and past projects.</p>
+        <p>P.P.S. If u have time take a look at my blog too :)</p>
+    ']" [contentType]="'html'" [typeSpeed]="10" [showCursor]="false">
+        <div class="typing"></div>
+    </ngx-typed-js>
+    <ngx-typed-js *ngIf="smallScreen" [strings]="['
+        <h1>HELLO!!!</h1>
+        <p>I am <i>Nikhil Rajesh</i>.</p>
+    ']" [contentType]="'html'" [typeSpeed]="10" [showCursor]="false">
+        <div class="typing"></div>
+    </ngx-typed-js>
+    <ngx-typed-js *ngIf="smallScreen" [startDelay]="1000" [loop]="true" [strings]="[
+        '<p>An aspiring <i>Software Developer</i>.</p>',
+        '<p>Currently pursuing <i>undergrad in CSE</i> at NITC.</p>',
+        '<p>As a hobby, I like to play <i>CTF\'s</i> in my spare time.</p>'
+    ]" [contentType]="'html'" [typeSpeed]="15" [backSpeed]="15" [showCursor]="false">
+        <div class="typing"></div>
+    </ngx-typed-js>
+</div>
