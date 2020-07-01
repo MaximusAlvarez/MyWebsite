@@ -1,5 +1,21 @@
 <mat-drawer-container class="drawerContainer" [hasBackdrop]="'true'">
-    <mat-drawer #drawer [mode]="'over'">I'm a drawer</mat-drawer>
+    <mat-drawer #drawer [mode]="'over'">
+        <div class="sidebar">
+            <div class="sidebar-start">
+                <button mat-icon-button class="icon sidebarButton" (click)="drawer.toggle()">
+                    <fa-icon [icon]="faTimes" size="2x"></fa-icon>
+                </button>
+                <div>Home</div>
+                <div>Blog</div>
+                <div>Projects</div>
+            </div>
+            <div class="sidebar-end">
+                <p>
+                    © 2020, Nikhil Rajesh
+                </p>
+            </div>
+        </div>
+    </mat-drawer>
     <div class="navbar">
         <div class="navbar-start">
             <h1>nikhilr</h1>
