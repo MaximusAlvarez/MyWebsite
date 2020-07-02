@@ -5,9 +5,18 @@
                 <button mat-icon-button class="icon sidebarButton" (click)="drawer.toggle()">
                     <fa-icon [icon]="faTimes" size="2x"></fa-icon>
                 </button>
-                <div>Home</div>
-                <div>Blog</div>
-                <div>Projects</div>
+                <div class="navitem icon">
+                    <fa-icon style="margin-right: 10px;" [icon]="faHome"></fa-icon>
+                    Home
+                </div>
+                <div class="navitem icon">
+                    <fa-icon style="margin-right: 10px;" [icon]="faPencil"></fa-icon>
+                    Blog
+                </div>
+                <div class="navitem icon">
+                    <fa-icon style="margin-right: 10px;" [icon]="faCode"></fa-icon>
+                    Projects
+                </div>
             </div>
             <div class="sidebar-end">
                 <p>

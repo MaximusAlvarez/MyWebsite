@@ -1,6 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelope, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faBars, faTimes, faHome, faPencilAlt, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +20,9 @@ export class AppComponent {
   faLinkedIn = faLinkedinIn;
   faPhone = faPhone;
   faTimes = faTimes;
+  faHome = faHome;
+  faPencil = faPencilAlt;
+  faCode = faCodeBranch;
 
   constructor() {
     this.onResize();
