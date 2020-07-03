@@ -1,19 +1,19 @@
-<mat-drawer-container class="drawerContainer" [hasBackdrop]="'true'">
+<mat-drawer-container class="drawerContainer" [hasBackdrop]="'true'" fullscreen>
     <mat-drawer #drawer [mode]="'over'">
         <div class="sidebar">
             <div class="sidebar-start">
                 <button mat-icon-button class="icon sidebarButton" (click)="drawer.toggle()">
                     <fa-icon [icon]="faTimes" size="2x"></fa-icon>
                 </button>
-                <div class="navitem icon">
+                <div class="navitem icon" [routerLink]="['/']">
                     <fa-icon style="margin-right: 10px;" [icon]="faHome"></fa-icon>
                     Home
                 </div>
-                <div class="navitem icon">
+                <div class="navitem icon" [routerLink]="['/blog']">
                     <fa-icon style="margin-right: 10px;" [icon]="faPencil"></fa-icon>
                     Blog
                 </div>
-                <div class="navitem icon">
+                <div class="navitem icon" [routerLink]="['/projects']">
                     <fa-icon style="margin-right: 10px;" [icon]="faCode"></fa-icon>
                     Projects
                 </div>
@@ -30,9 +30,9 @@
             <h1>nikhilr</h1>
         </div>
         <div class="navbar-end" *ngIf="!smallScreen">
-            <div class="middle" [routerLink]="['/home']">Home</div>
-            <div class="middle">Blog</div>
-            <div class="middle">Projects</div>
+            <div class="middle" [routerLink]="['/']">Home</div>
+            <div class="middle" [routerLink]="['/blog']">Blog</div>
+            <div class="middle" [routerLink]="['/projects']">Projects</div>
         </div>
         <button mat-icon-button class="icon sidebarButton" *ngIf="smallScreen" (click)="drawer.toggle()">
             <fa-icon [icon]="faBars" size="2x"></fa-icon>
