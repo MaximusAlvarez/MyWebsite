@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
+import { MatBottomSheet } from '@angular/material/bottom-sheet';
+import { ProjectInfoComponent } from '../project-info/project-info.component';
 
 @Component({
   selector: 'app-projects',
@@ -8,7 +10,14 @@ import * as AOS from 'aos';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() {
+  constructor(private _bottomSheet: MatBottomSheet) {
+  }
+
+  openProject() {
+    this._bottomSheet.open(ProjectInfoComponent, {
+      data: { name: 'Something' },
+      panelClass: 'bottomSheet'
+    });
   }
 
   ngOnInit(): void {
