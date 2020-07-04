@@ -41,7 +41,9 @@ html {
 
 .bottomSheet {
     background: $background;
-    overflow: hidden !important;
+    padding: 0 !important;
+    max-width: 90vw;
+    min-width: 0 !important;
     * {
         color: $primaryText;
     }

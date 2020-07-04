@@ -10,6 +10,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
+import { MatChipsModule } from '@angular/material/chips';
 // User Defined Modules
 import { AppRoutingModule } from './app-routing.module';
 // Component Declarations
@@ -36,6 +37,7 @@ import { ProjectInfoComponent } from './project-info/project-info.component';
     MatIconModule,
     MatCardModule,
     MatBottomSheetModule,
+    MatChipsModule,
   ],
   entryComponents: [ProjectInfoComponent],
   providers: [],

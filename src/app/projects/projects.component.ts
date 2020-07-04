@@ -13,9 +13,9 @@ export class ProjectsComponent implements OnInit {
   constructor(private _bottomSheet: MatBottomSheet) {
   }
 
-  openProject() {
+  openProject(name: string) {
     this._bottomSheet.open(ProjectInfoComponent, {
-      data: { name: 'Something' },
+      data: { projectName: name },
       panelClass: 'bottomSheet'
     });
   }
