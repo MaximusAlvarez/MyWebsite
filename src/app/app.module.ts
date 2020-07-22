@@ -11,6 +11,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatButtonModule } from '@angular/material/button';
 // User Defined Modules
 import { AppRoutingModule } from './app-routing.module';
 // Component Declarations
@@ -36,6 +37,7 @@ import { ProjectInfoComponent } from './project-info/project-info.component';
     MatSidenavModule,
     MatIconModule,
     MatCardModule,
+    MatButtonModule,
     MatBottomSheetModule,
     MatChipsModule,
   ],

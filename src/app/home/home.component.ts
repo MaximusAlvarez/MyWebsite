@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -17,7 +18,13 @@ export class HomeComponent implements OnInit {
     this.smallScreen = window.innerWidth <= 800 ? true : false;
   }
 
+  scrollToElement(): void {
+    const element = document.querySelector('#about');
+    element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  }
+
   ngOnInit(): void {
+    AOS.init();
   }
 
 }

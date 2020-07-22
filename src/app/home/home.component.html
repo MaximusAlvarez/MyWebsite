@@ -1,26 +1,17 @@
 <div class="container">
-    <ngx-typed-js *ngIf="!smallScreen" [strings]="['
-        <h1>HELLO!!!</h1>
-        <p>I am <i>Nikhil Rajesh</i>.</p>
-        <p>An aspiring <i>Software Developer</i>.</p>
-        <p>Currently pursuing <i>undergrad in CSE</i> at NITC.</p>
-        <p>As a hobby, I like to play <i>CTF\'s</i> in my spare time.</p>
-        <p>P.S. If u want to know more, checkout my resume and past projects.</p>
-        <p>P.P.S. If u have time take a look at my blog too :)</p>
-    ']" [contentType]="'html'" [typeSpeed]="10" [showCursor]="false">
-        <div class="typing"></div>
-    </ngx-typed-js>
-    <ngx-typed-js *ngIf="smallScreen" [strings]="['
-        <h1>HELLO!!!</h1>
-        <p>I am <i>Nikhil Rajesh</i>.</p>
-    ']" [contentType]="'html'" [typeSpeed]="10" [showCursor]="false">
-        <div class="typing"></div>
-    </ngx-typed-js>
-    <ngx-typed-js *ngIf="smallScreen" [startDelay]="1000" [loop]="true" [strings]="[
-        '<p>An aspiring <i>Software Developer</i>.</p>',
-        '<p>Currently pursuing <i>undergrad in CSE</i> at NITC.</p>',
-        '<p>As a hobby, I like to play <i>CTF\'s</i> in my spare time.</p>'
-    ]" [contentType]="'html'" [typeSpeed]="15" [backSpeed]="15" [showCursor]="false">
-        <div class="typing"></div>
-    </ngx-typed-js>
+    <section id="home">
+        <h3 data-aos="flip-up" data-aos-offset="0" data-aos-duration="1000">Hey I'm</h3>
+        <h1 data-aos="flip-down" data-aos-offset="0" data-aos-delay="300" data-aos-duration="1000">Nikhil Rajesh</h1>
+        <!-- <div class="scrollButton">
+            <button mat-fab aria-label="Scroll Button" (click)="scrollToElement()">
+                <mat-icon>keyboard_arrow_down</mat-icon>
+            </button>
+        </div> -->
+    </section>
+    <!-- <section id="about">
+        <h1>About Me</h1>
+        <p>
+            An engineering undergrad
+        </p>
+    </section> -->
 </div>
