@@ -5,9 +5,10 @@
     justify-content: center;
     flex-direction: column;
     box-sizing: border-box;
+    height: 100%;
 
     section {
-        height: calc(100vh - 200px);
+        height: calc(100% - 200px);
     }
     
     #home {
