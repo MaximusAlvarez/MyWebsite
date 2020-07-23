@@ -1,1 +1,20 @@
-<p>redpwn-ctf2020 works!</p>
+<div class="container">
+    <h1 class="header">redpwnCTF 2020 Writeup</h1>
+    <p class="subHeader">Writeups to the challenges that I completed in 
+        <a href="https://ctf.redpwn.net/">redpwnCTF 2020</a>
+    </p>
+    <table>
+        <tr class="head">
+            <th class="name">Challenge Name</th>
+            <th>Category</th>
+        </tr>
+        <tr *ngFor="let challenge of datasource">
+            <td class="name">
+                <a href="" style="text-decoration: none;">
+                    {{challenge.challengeName}}
+                </a>
+            </td>
+            <td>{{challenge.category}}</td>
+        </tr>
+    </table>
+</div>
