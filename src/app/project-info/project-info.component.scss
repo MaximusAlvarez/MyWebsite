@@ -1,0 +1,33 @@
+@import "../../globalVariables.scss";
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 90vw;
+    width: 500px;
+    padding-bottom: 30px;
+    * {
+        font-family: "Poppins", sans-serif;
+    }
+    .projectImg {
+        width: 100%;
+    }
+    h4 {
+        font-size: 1.6em;
+        color: $primary;
+    }
+    p {
+        text-align: center;
+        font-size: 1.4em;
+        padding: 0 15px;
+    }
+}
+mat-chip-list {
+    padding: 10px;
+}
+mat-chip {
+    background-color: transparent !important;
+    border: 2px solid $primary;
+    color: $primaryText !important;
+}

@@ -1,0 +1,65 @@
+@import "../../globalVariables.scss";
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+
+    section {
+        height: calc(100% - 200px);
+    }
+    
+    #home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-bottom: 100px;
+        font-family: 'Shadows Into Light', cursive;
+        position: relative;
+
+        h3 {
+            font-size: 50px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 70px;
+            margin: 0;
+        }
+        .scrollButton {
+            position: absolute;
+            bottom: 0;
+            margin: 30px auto;
+            button{
+               background-color: transparent;
+   
+               mat-icon {
+                   color: $primary;
+                   transform: scale(2);
+               }
+           }
+        }
+    }
+    #home * {
+        text-align: center;
+        color: $primary;
+    }
+
+    #about {
+        width: 90vw;
+        max-width: 800px;
+        box-sizing: border-box;
+        padding: 2rem;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        
+        h1 {
+            color: $primary;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+    }
+}
