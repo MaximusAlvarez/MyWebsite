@@ -30,10 +30,12 @@
             ],
             "styles": [
               "./node_modules/aos/dist/aos.css",
+              "./node_modules/prismjs/themes/prism-tomorrow.css",
               "src/styles.scss"
             ],
             "scripts": [
-              "./node_modules/aos/dist/aos.js"
+              "./node_modules/aos/dist/aos.js",
+              "./node_modules/prismjs/prism.js"
             ]
           },
           "configurations": {

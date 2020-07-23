@@ -22,6 +22,7 @@ import { ProjectInfoComponent } from './project-info/project-info.component';
 import { BlogComponent } from './blog/blog.component';
 import { RedpwnCTF2020Component } from './blog-entries/redpwn-ctf2020/redpwn-ctf2020.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { HighlightService } from './blog-entries/highlight.service';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     MatChipsModule,
   ],
   entryComponents: [ProjectInfoComponent],
-  providers: [],
+  providers: [HighlightService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

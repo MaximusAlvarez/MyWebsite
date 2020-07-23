@@ -11,25 +11,26 @@ html {
         height: 100%;
         * {
             color: $primaryText;
+            line-height: 1.5;
         }
     }
 }
-.typing {
-    * {
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-    }
-    h1 {
-        color: #00adb5;
-        font-size: 70px;
-        margin: 5px 0;
-    }
-    p {
-        padding: 0;
-        font-size: 30px;
-        margin: 3px 0;
-    }
-}
+// .typing {
+//     * {
+//         font-family: 'Poppins', sans-serif;
+//         text-align: center;
+//     }
+//     h1 {
+//         color: #00adb5;
+//         font-size: 70px;
+//         margin: 5px 0;
+//     }
+//     p {
+//         padding: 0;
+//         font-size: 30px;
+//         margin: 3px 0;
+//     }
+// }
 .icon svg path {
     fill: $primary !important;
 }
@@ -50,19 +51,40 @@ html {
     }
 }
 
-@media only screen and (max-width: 1024px) {
-    .typing h1 {
-        font-size: 50px;
-    }
-    .typing p {
-        font-size: 26px;
+// @media only screen and (max-width: 1024px) {
+//     .typing h1 {
+//         font-size: 50px;
+//     }
+//     .typing p {
+//         font-size: 26px;
+//     }
+// }
+// @media only screen and (max-width: 700px) {
+//     .typing h1 {
+//         font-size: 40px;
+//     }
+//     .typing p {
+//         font-size: 22px;
+//     }
+// }
+
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: #393e46;
+}
+
+.button {
+    color: $primary;
+    background-color: transparent;
+    border: 1px solid $primary;
+    font-size: 22.5px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    .buttonIcon {
+        margin: 5px;
     }
 }
-@media only screen and (max-width: 700px) {
-    .typing h1 {
-        font-size: 40px;
-    }
-    .typing p {
-        font-size: 22px;
-    }
+.button:hover {
+    cursor: pointer;
 }

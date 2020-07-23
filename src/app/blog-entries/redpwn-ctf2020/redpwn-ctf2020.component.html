@@ -1,6 +1,6 @@
 <div class="container">
     <h1 class="header">redpwnCTF 2020 Writeup</h1>
-    <p class="subHeader">Writeups to the challenges that I completed in 
+    <p class="subHeader">Writeups to the challenges that I completed in
         <a href="https://ctf.redpwn.net/">redpwnCTF 2020</a>
     </p>
     <table>
@@ -10,11 +10,50 @@
         </tr>
         <tr *ngFor="let challenge of datasource">
             <td class="name">
-                <a href="" style="text-decoration: none;">
+                <a (click)="scrollToElement(challenge.id)" style="text-decoration: none;">
                     {{challenge.challengeName}}
                 </a>
             </td>
             <td>{{challenge.category}}</td>
         </tr>
     </table>
+
+    <section id="12-shades-of-redpwn">
+        <h1>12-shades-of-redpwn --- crypto</h1>
+        <h2>Problem Statement:</h2>
+        <p>
+            Everyone's favorite guess god Tux just sent me a flag that he somehow encrypted with a color wheel!
+            I don't even know where to start, the wheel looks more like a clock than a cipher... can you help me crack
+            the code?
+        </p>
+        <a href="../../../assets/redpwnCTF/12-shades-of-redpwn/color-wheel.jpg" target="_blank">
+            <button class="button">
+                <fa-icon class="icon buttonIcon" [icon]="faDownload"></fa-icon>
+                color-wheel.jpg
+            </button>
+        </a>
+        <a href="../../../assets/redpwnCTF/12-shades-of-redpwn/ciphertext.jpg" target="_blank">
+            <button class="button">
+                <fa-icon class="icon buttonIcon" [icon]="faDownload"></fa-icon>
+                ciphertext.jpg
+            </button>
+        </a>
+        <p>
+            There are 12 different colors in <i>colorwheel.jpg</i>. These 12 colors can be thought to correspond to the
+            hours in
+            a clock. In that way we can assign each color a number. If these numbers are substituted in
+            <i>ciphertext.jpg</i>,
+            we get a list of numbers grouped by 2.
+        </p>
+        <div [innerHTML]="highlight['0']['0']"></div>
+        <p>
+            We know that all flags are of the format <i>flag{{'{'}}...{{'}'}}</i>. So if we assume <i>8,6</i> &
+            <i>9,0</i> corresponds to ascii codes of <i>f</i> and <i>l</i> respectively, we can find that
+            <i>firstNumber*12 +
+                secondNumber</i> is the corresponding ascii code. A python script can be written to find the rest of the
+            values.
+        </p>
+        <div [innerHTML]="highlight['0']['1']"></div>
+        <h3>flag: <i>flag{{'{'}}9u3ss1n9_1s_4n_4rt{{'}'}}</i></h3>
+    </section>
 </div>
