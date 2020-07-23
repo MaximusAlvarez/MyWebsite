@@ -1,59 +1,60 @@
-@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
-@import './globalVariables.scss';
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "./globalVariables.scss";
 
 html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+  body {
+    background: $background;
+    padding: 0;
+    margin: 0;
     height: 100%;
-    scroll-behavior: smooth;
-    body {
-        background: $background;
-        padding: 0;
-        margin: 0;
-        height: 100%;
-        * {
-            color: $primaryText;
-            line-height: 1.5;
-        }
+    * {
+      color: $primaryText;
+      line-height: 1.5;
     }
+  }
 }
 
 .icon svg path {
-    fill: $primary !important;
+  fill: $primary !important;
 }
 .icon:hover {
-    cursor: pointer;
-    svg path{
+  cursor: pointer;
+  svg path {
     fill: $primaryText !important;
-    }
-} 
+  }
+}
 
 .bottomSheet {
-    background: $background;
-    padding: 0 !important;
-    max-width: 90vw;
-    min-width: 0 !important;
-    * {
-        color: $primaryText;
-    }
+  background: $background;
+  padding: 0 !important;
+  max-width: 90vw;
+  min-width: 0 !important;
+  * {
+    color: $primaryText;
+  }
 }
 
-:not(pre) > code[class*="language-"], pre[class*="language-"] {
-    background: #393e4696;
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #393e4696;
 }
 pre {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 .button {
-    color: $primary;
-    background-color: transparent;
-    border: 1px solid $primary;
-    font-size: 22.5px;
-    border-radius: 3px;
-    padding: 5px;
+  color: $primary;
+  background-color: transparent;
+  border: 1px solid $primary;
+  font-size: 22.5px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  .buttonIcon {
     margin: 5px;
-    .buttonIcon {
-        margin: 5px;
-    }
+  }
 }
 .button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
