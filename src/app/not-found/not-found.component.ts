@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class NotFoundComponent implements OnInit {
 
-  constructor(private router: Router) { 
+  constructor(private router: Router) {
     this.checkIfBlog();
   }
 

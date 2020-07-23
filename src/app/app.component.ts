@@ -46,8 +46,8 @@ export class AppComponent implements AfterViewInit{
     this.scrollDispatcher.scrolled().
     subscribe((cdk: CdkScrollable)  => {
     this.zone.run(() => {
-    //Here you can add what to happen when scroll changed
-    //I want to display the scroll position for example
+    // Here you can add what to happen when scroll changed
+    // I want to display the scroll position for example
       AOS.refresh();
     });
     });

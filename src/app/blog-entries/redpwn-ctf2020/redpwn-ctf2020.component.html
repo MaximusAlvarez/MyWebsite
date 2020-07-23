@@ -10,7 +10,7 @@
         </tr>
         <tr *ngFor="let challenge of datasource">
             <td class="name">
-                <a (click)="scrollToElement(challenge.id)" style="text-decoration: none;">
+                <a (click)="scrollToElement(challenge.id)" class="data" style="text-decoration: none;">
                     {{challenge.challengeName}}
                 </a>
             </td>

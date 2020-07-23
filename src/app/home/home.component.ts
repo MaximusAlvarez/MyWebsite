@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
 
   scrollToElement(): void {
     const element = document.querySelector('#about');
-    element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
   }
 
   ngOnInit(): void {
