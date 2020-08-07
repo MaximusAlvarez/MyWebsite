@@ -23,6 +23,7 @@ import { BlogComponent } from './blog/blog.component';
 import { RedpwnCTF2020Component } from './blog-entries/redpwn-ctf2020/redpwn-ctf2020.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HighlightService } from './blog-entries/highlight.service';
+import { ThemeService } from './services/theme.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { HighlightService } from './blog-entries/highlight.service';
     ProjectInfoComponent,
     BlogComponent,
     RedpwnCTF2020Component,
-    NotFoundComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -46,10 +47,10 @@ import { HighlightService } from './blog-entries/highlight.service';
     MatCardModule,
     MatButtonModule,
     MatBottomSheetModule,
-    MatChipsModule,
+    MatChipsModule
   ],
   entryComponents: [ProjectInfoComponent],
-  providers: [HighlightService],
+  providers: [HighlightService, ThemeService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

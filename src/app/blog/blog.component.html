@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" [ngClass]="{ 'lightTheme': (isDarkTheme | async) === false }">
     <div class="entry middle" *ngFor="let entry of entries" [routerLink]="['/blog/' + entry.link]">
         <h1>{{entry.name}}</h1>
         <h2>{{entry.date}}</h2>

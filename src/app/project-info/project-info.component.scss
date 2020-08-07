@@ -7,7 +7,9 @@
     max-width: 90vw;
     width: 500px;
     padding-bottom: 30px;
+    background: $darkBackground;
     * {
+        color: $darkPrimaryText;
         font-family: "Poppins", sans-serif;
     }
     .projectImg {
@@ -15,7 +17,7 @@
     }
     h4 {
         font-size: 1.6em;
-        color: $primary;
+        color: $darkPrimary;
     }
     p {
         text-align: center;
@@ -28,6 +30,19 @@ mat-chip-list {
 }
 mat-chip {
     background-color: transparent !important;
-    border: 2px solid $primary;
-    color: $primaryText !important;
+    border: 2px solid $darkPrimary;
+    color: $darkPrimaryText !important;
+}
+.lightTheme {
+    background: $lightBackground;
+    * {
+        color: $lightPrimaryText;
+    }
+    h4 {
+        color: $lightPrimary;
+    }
+    mat-chip {
+        border: 2px solid $lightPrimary;
+        color: $lightPrimaryText !important;
+    }
 }
