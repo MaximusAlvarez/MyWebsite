@@ -31,6 +31,17 @@
 		min-width: 35%;
 		padding-right: 2.5rem;
 
+		span {
+			display: flex;
+			align-items: center;
+		}
+		.marginLeftAuto {
+			margin-left: auto;
+			fa-icon {
+				margin: 0 10px;
+			}
+		}
+
 		div {
 			font-family: "Poppins", sans-serif;
 			color: $darkPrimary;
@@ -61,11 +72,8 @@
 			transform: scaleX(1);
 		}
 	}
-	.sidebarButton {
-		padding-right: 2.5rem;
-	}
 }
-.sidebarButton {
+.sidebarButton button{
 	background-color: transparent;
 	border: 0;
 	outline: 0;
@@ -129,8 +137,11 @@
 		div {
 			color: $lightPrimary;
 		}
+		div:hover {
+			color: $lightSecondary;
+		}
 		.middle:before {
-			background-color: $lightPrimary;
+			background-color: $lightSecondary;
 		}
 	}
 	.sidebar {

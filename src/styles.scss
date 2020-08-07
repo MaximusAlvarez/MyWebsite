@@ -26,7 +26,7 @@ html {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #393e4696;
+	background: #393e46;
 }
 pre {
 	border-radius: 5px;
@@ -64,14 +64,14 @@ mat-drawer-container.darkTheme {
 
 mat-drawer-container.lightTheme {
 	background: $lightBackground !important;
-	* {
+	* :not(code) {
 		color: $lightPrimaryText;
 	}
 	.icon svg path {
 		fill: $lightPrimary !important;
 	}
 	.icon:hover svg path {
-		fill: $lightPrimaryText !important;
+		fill: $lightSecondary !important;
 	}
 	.button {
 	  color: $lightPrimary;
