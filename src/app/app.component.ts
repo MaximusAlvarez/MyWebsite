@@ -11,11 +11,13 @@ import {
     faTimes,
     faHome,
     faPencilAlt,
-    faCodeBranch
+    faCodeBranch,
+    faFilePdf
 } from '@fortawesome/free-solid-svg-icons';
 import * as AOS from 'aos';
 import { Observable } from 'rxjs';
 import { ThemeService } from './services/theme.service';
+import {Router, NavigationStart, Event} from '@angular/router';
 
 @Component({
     selector: 'app-root',
@@ -29,7 +31,9 @@ export class AppComponent implements AfterViewInit, OnInit {
     cols = 4;
 
     isDarkTheme: Observable<boolean>;
+    resume: boolean;
 
+    faText = faFilePdf;
     faBars = faBars;
     faInstagram = faInstagram;
     faEnvelope = faEnvelope;
@@ -46,9 +50,15 @@ export class AppComponent implements AfterViewInit, OnInit {
     constructor(
         private themeService: ThemeService,
         private scrollDispatcher: ScrollDispatcher,
-        private zone: NgZone
+        private zone: NgZone,
+	private router: Router
     ) {
         this.onResize();
+	this.router.events.subscribe((event: Event) => {
+		if (event instanceof NavigationStart) {
+			this.resume = event.url === '/resume';
+		}
+	})
     }
 
     @HostListener('window:resize', ['$event'])

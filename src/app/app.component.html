@@ -3,6 +3,7 @@
     [ngClass]="{ 'lightTheme': (isDarkTheme | async) === false, 'darkTheme': isDarkTheme | async }"
     [hasBackdrop]="'true'"
     fullscreen
+    *ngIf="!resume"
 >
     <mat-drawer #drawer [mode]="'over'">
         <div class="sidebar">
@@ -21,6 +22,10 @@
                 <div class="navitem icon" (click)="drawer.toggle()" [routerLink]="['/projects']">
                     <fa-icon style="margin-right: 10px;" [icon]="faCode"></fa-icon>
                     Projects
+                </div>
+                <div class="navitem icon" (click)="drawer.toggle()" [routerLink]="['/resume']">
+                    <fa-icon style="margin-right: 10px;" [icon]="faText"></fa-icon>
+                    Resume
                 </div>
             </div>
             <div class="sidebar-end">
@@ -70,10 +75,11 @@
             <div class="middle" *ngIf="!smallScreen" [routerLink]="['/']">Home</div>
             <div class="middle" *ngIf="!smallScreen" [routerLink]="['/blog']">Blog</div>
             <div class="middle" *ngIf="!smallScreen" [routerLink]="['/projects']">Projects</div>
+            <div class="middle" *ngIf="!smallScreen" [routerLink]="['/resume']">Resume</div>
         </div>
     </div>
     <div class="container">
-        <router-outlet></router-outlet>
+	    <router-outlet></router-outlet>
     </div>
     <div class="footerContainer">
         <mat-grid-list cols="6" rowHeight="100px">
@@ -107,3 +113,4 @@
         </mat-grid-list>
     </div>
 </mat-drawer-container>
+<router-outlet name="resume" *ngIf="resume"></router-outlet>
