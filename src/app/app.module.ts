@@ -24,6 +24,7 @@ import { RedpwnCTF2020Component } from './blog-entries/redpwn-ctf2020/redpwn-ctf
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HighlightService } from './blog-entries/highlight.service';
 import { ThemeService } from './services/theme.service';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ThemeService } from './services/theme.service';
     ProjectInfoComponent,
     BlogComponent,
     RedpwnCTF2020Component,
-    NotFoundComponent
+    NotFoundComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
