@@ -72,6 +72,10 @@ export class AppComponent implements AfterViewInit, OnInit {
         }
     }
 
+    downloadResume() {
+	    window.open("../assets/resume/Nikhil Rajesh - Resume.pdf", "_blank");
+    }
+
     toggleTheme(checked: boolean) {
         this.themeService.setDarkTheme(checked);
         console.log('asdf');

@@ -9,8 +9,8 @@
     line-height: 1.5;
     .flex {
         display: flex;
-	justify-content: space-between;
-	position: relative;
+        justify-content: space-between;
+        position: relative;
     }
     .heading {
         margin-top: 5px;
@@ -26,31 +26,41 @@
     }
     .center {
         text-align: center;
-	position: absolute;
-	width: 100%;
+        position: absolute;
+        width: 100%;
     }
     .right {
         text-align: right;
     }
-    ul, p {
-	    margin: 0;
+    ul,
+    p {
+        margin: 0;
     }
     h3 {
         margin: 10px 0 0 0;
     }
 }
 .isLightTheme {
+    * {
+        color: $lightPrimaryText;
+    }
     .hasBottomBorder {
         border-bottom: 2px solid $lightPrimaryText;
     }
 }
 .isDarkTheme {
+    * {
+        color: $darkPrimaryText;
+    }
     .hasBottomBorder {
         border-bottom: 2px solid $darkPrimaryText;
     }
 }
 @media print {
-    .container {
+    .container *{
         color: black;
+    }
+    .hasBottomBorder {
+        border-bottom: 2px solid black !important;
     }
 }
