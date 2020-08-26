@@ -1,7 +1,7 @@
-import { Component, HostListener, AfterViewInit, NgZone, OnInit } from '@angular/core';
-import { ScrollDispatcher } from '@angular/cdk/scrolling';
-import { CdkScrollable } from '@angular/cdk/scrolling';
-import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Component, HostListener, AfterViewInit, NgZone, OnInit } from "@angular/core";
+import { ScrollDispatcher } from "@angular/cdk/scrolling";
+import { CdkScrollable } from "@angular/cdk/scrolling";
+import { faInstagram, faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
     faPhone,
     faSun,
@@ -13,19 +13,19 @@ import {
     faPencilAlt,
     faCodeBranch,
     faFilePdf
-} from '@fortawesome/free-solid-svg-icons';
-import * as AOS from 'aos';
-import { Observable } from 'rxjs';
-import { ThemeService } from './services/theme.service';
-import {Router, NavigationStart, Event} from '@angular/router';
+} from "@fortawesome/free-solid-svg-icons";
+import * as AOS from "aos";
+import { Observable } from "rxjs";
+import { ThemeService } from "./services/theme.service";
+import { Router, NavigationStart, Event } from "@angular/router";
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.scss']
+    selector: "app-root",
+    templateUrl: "./app.component.html",
+    styleUrls: ["./app.component.scss"]
 })
 export class AppComponent implements AfterViewInit, OnInit {
-    title = 'nikhilr';
+    title = "nikhilr";
     smallScreen = true;
     spin = 0;
     cols = 4;
@@ -51,17 +51,17 @@ export class AppComponent implements AfterViewInit, OnInit {
         private themeService: ThemeService,
         private scrollDispatcher: ScrollDispatcher,
         private zone: NgZone,
-	private router: Router
+        private router: Router
     ) {
         this.onResize();
-	this.router.events.subscribe((event: Event) => {
-		if (event instanceof NavigationStart) {
-			this.resume = event.url === '/resume';
-		}
-	})
+        this.router.events.subscribe((event: Event) => {
+            if (event instanceof NavigationStart) {
+                this.resume = event.url === "/resume";
+            }
+        });
     }
 
-    @HostListener('window:resize', ['$event'])
+    @HostListener("window:resize", ["$event"])
     onResize(event?) {
         if (window.innerWidth <= 800) {
             this.smallScreen = true;
@@ -72,13 +72,9 @@ export class AppComponent implements AfterViewInit, OnInit {
         }
     }
 
-    downloadResume() {
-	    window.open("../assets/resume/Nikhil Rajesh - Resume.pdf", "_blank");
-    }
-
     toggleTheme(checked: boolean) {
         this.themeService.setDarkTheme(checked);
-        console.log('asdf');
+        console.log("asdf");
     }
 
     ngAfterViewInit() {

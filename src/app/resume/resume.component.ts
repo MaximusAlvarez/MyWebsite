@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
     selector: "app-resume",
@@ -8,9 +9,17 @@ import { Component, OnInit, ElementRef } from "@angular/core";
 export class ResumeComponent implements OnInit {
     isDarkTheme = true;
 
-    constructor(private elementRef: ElementRef) {}
+    constructor(private elementRef: ElementRef, private router: Router) {}
+
+    downloadResume() {
+        if (window.innerWidth <= 800) {
+            window.open("../../assets/resume/Nikhil Rajesh - Resume.pdf", "_blank");
+            this.router.navigate(["/"]);
+        }
+    }
 
     ngOnInit(): void {
+        this.downloadResume();
         if (
             localStorage.hasOwnProperty("isDarkTheme") &&
             !JSON.parse(localStorage.getItem("isDarkTheme"))
