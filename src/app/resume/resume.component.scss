@@ -18,6 +18,10 @@
             font-weight: bold;
         }
     }
+    header {
+        height: 100px;
+        align-items: center;
+    }
     .maxFlexWidth {
         flex: 1;
     }
@@ -27,7 +31,7 @@
     .center {
         text-align: center;
         position: absolute;
-	z-index: -1;
+        z-index: -1;
         width: 100%;
     }
     .right {
@@ -58,7 +62,7 @@
     }
 }
 @media print {
-    .container *{
+    .container * {
         color: black;
     }
     .hasBottomBorder {
