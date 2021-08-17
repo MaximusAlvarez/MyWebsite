@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Button, chakra, Heading, Stack, Text } from '@chakra-ui/react'
+import { Link, Button, Heading, Stack } from '@chakra-ui/react'
 import useMediaQuery from '../hook/useMediaQuery'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
@@ -62,8 +62,7 @@ export default function ContactMe () {
               </Button>
             </Link>
             <Link
-              href='https://drive.google.com/file/d/1kzzJ-ImTnyvzJN_kNtGlc0Ev-mIyC3t5/view?usp=sharing'
-              isExternal
+              href='/resume'
               onClick={() => handleClick('contact_resume')}
             >
               <Button
