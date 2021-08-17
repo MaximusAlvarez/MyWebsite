@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 900 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
+      <path d="M 0,2000 H 2000 V 0 H 0 Z" id="path18"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
+      <path d="m 1003.05,971.949 h 80.19 V 819.58 h -80.19 z" id="path30"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath48">
+      <path d="m 1061.54,1026.91 h 119.3 v -80.19 h -119.3 z" id="path46"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath64">
+      <path d="m 1098.01,861.512 h 4.78 v -5.557 h -4.78 z" id="path62"/>
+    </clipPath>
+  </defs>
+  <g id="g14" transform="matrix(1.333333, 0, 0, -1.333333, -843.258666, 1668.095091)">
+    <g id="g16" clip-path="url(#clipPath20)">
+      <g id="g22" transform="translate(1061.54,1026.9102)">
+        <path d="M 0,0 -108.78,126.51 H 80.51 c 34.881,0 63.25,-28.39 63.25,-63.26 C 143.76,28.37 115.391,0 80.51,0 Z m 68.96,-80.19 h 11.55 c 13.44,0 26.45,1.86 38.79,5.33 60.3,16.96 104.65,72.45 104.65,138.11 0,79.09 -64.35,143.44 -143.44,143.44 h -364 l 35.35,-41.11 21.61,-25.13 168.04,-195.41 v -83.72 l -296.99,345.37 h -58.49 v -476.201 h 80.19 V 58.48 L -51.729,-269.511 H 21.7 v 121.29 l 104.31,-121.29 h 105.75 z" style="fill-opacity: 1; fill-rule: nonzero; stroke: none; fill: rgb(60, 207, 145);" id="path24"/>
+      </g>
+      <g id="g26">
+        <g id="g28"/>
+        <g id="g40">
+          <g clip-path="url(#clipPath32)" opacity="0.300003" id="g38">
+            <g transform="translate(1003.0498,971.9492)" id="g36">
+              <path d="M 0,0 V -59.119 L 29.36,-93.26 80.19,-152.369 V -93.26 Z" style="fill-opacity: 1; fill-rule: nonzero; stroke: none; fill: rgb(45, 45, 45);" id="path34"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="g42">
+        <g id="g44"/>
+        <g id="g56">
+          <g clip-path="url(#clipPath48)" opacity="0.300003" id="g54">
+            <g transform="translate(1130.5,946.7197)" id="g52">
+              <path d="M 0,0 H 11.55 C 24.99,0 38,1.86 50.34,5.33 l -64.38,74.86 h -54.92 z" style="fill-opacity: 1; fill-rule: nonzero; stroke: none; fill: rgb(45, 45, 45);" id="path50"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="g58">
+        <g id="g60"/>
+        <g id="g72">
+          <g clip-path="url(#clipPath64)" opacity="0.199997" id="g70">
+            <g transform="translate(1098.0137,861.5107)" id="g68">
+              <path d="M 0,0 4.779,-5.556 0,0.001 Z" style="fill-opacity: 1; fill-rule: nonzero; stroke: none; fill: rgb(45, 45, 45);" id="path66"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
