@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "description": "My Portfolio Site",
-    "author": "Ph4t3", "keywords": [
+    "author": "Ph4t3",
+    "keywords": [
         "gatsby"
     ],
     "scripts": {
@@ -19,6 +20,7 @@
         "@emotion/react": "^11.4.1",
         "@emotion/styled": "^11.3.0",
         "@react-icons/all-files": "^4.1.0",
+        "canvas": "^2.8.0",
         "framer-motion": "^4.1.17",
         "gatsby": "^3.11.1",
         "gatsby-plugin-google-analytics": "^3.11.0",
