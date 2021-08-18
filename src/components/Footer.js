@@ -1,18 +1,20 @@
 import React from 'react'
 import { Box, Flex, Text, Divider, Link } from '@chakra-ui/react'
 import SlideUpWhenVisible from '../hook/SlideUpWhenVisible'
+import useMediaQuery from '../hook/useMediaQuery'
 
 export default function Footer () {
+  const isLargerThan600 = useMediaQuery(600)
   return (
-    <Box
-      position='absolute'
-      zIndex='99'
-      w='100%'
-      bottom='0'
-    >
-      <SlideUpWhenVisible>
-        <Divider />
-        <Flex justifyContent='space-between' alignItems='center' m={5}>
+    <SlideUpWhenVisible>
+      <Divider />
+      <Flex
+        justifyContent={isLargerThan600 ? 'space-between' : 'center'}
+        flexDirection={isLargerThan600 ? 'row' : 'column'}
+        alignItems='center'
+        m={5}
+      >
+        <Box>
           <Text fontSize='sm'>
             Developed by {' '}
             <Link
@@ -22,7 +24,8 @@ export default function Footer () {
             >
               Nikhil Rajesh
             </Link>
-            <br />
+          </Text>
+          <Text fontSize='sm' display={isLargerThan600 ? 'block' : 'none'}>
             Built with{' '}
             <Link
               href='http://gatsbyjs.com'
@@ -42,29 +45,29 @@ export default function Footer () {
               Chakra UI
             </Link>
           </Text>
-          <Text textAlign='right' fontSize='sm'>
-            Inspired from{' '}
-            <Link
-              href='https://abdulrahman.id'
-              fontWeight='semibold'
-              color='button1'
-              isExternal
-            >
-              abdulrahman.id
-            </Link>
-            <br />
-            Icon by{' '}
-            <Link
-              href='https://www.vectorstock.com/royalty-free-vector/letter-nr-ar-r-n-logo-design-simple-vector-27225013'
-              fontWeight='semibold'
-              color='button1'
-              isExternal
-            >
-              VectorStock / vectorstock
-            </Link>
-          </Text>
-        </Flex>
-      </SlideUpWhenVisible>
-    </Box>
+        </Box>
+        <Text textAlign={isLargerThan600 ? 'right' : 'center'} fontSize='sm'>
+          Inspired from{' '}
+          <Link
+            href='https://abdulrahman.id'
+            fontWeight='semibold'
+            color='button1'
+            isExternal
+          >
+            abdulrahman.id
+          </Link>
+          <br />
+          Icon by{' '}
+          <Link
+            href='https://www.vectorstock.com/royalty-free-vector/letter-nr-ar-r-n-logo-design-simple-vector-27225013'
+            fontWeight='semibold'
+            color='button1'
+            isExternal
+          >
+            VectorStock / vectorstock
+          </Link>
+        </Text>
+      </Flex>
+    </SlideUpWhenVisible>
   )
 }

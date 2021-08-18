@@ -78,7 +78,8 @@ const ResumePage = () => {
       </Helmet>
       <Navbar link={data.contentfulPerson.resume.file.url} page='resume' />
       <Flex
-        py='100px'
+        pt='100px'
+        pb='30px'
         justifyContent='center'
         alignItems='center'
         ref={pdfWrapper}
